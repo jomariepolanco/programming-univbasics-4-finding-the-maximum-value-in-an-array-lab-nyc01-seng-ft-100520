@@ -27,5 +27,5 @@
 
 def find_max_value(array)
   sort_array = array.sort 
-  sort_array.length.times do {|i| sort_array.last}
+  sort_array.length.times do {|i| sort_array.last[i]}
 end
